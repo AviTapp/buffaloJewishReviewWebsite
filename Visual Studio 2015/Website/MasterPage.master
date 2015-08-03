@@ -1,0 +1,63 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Buffalo Jewish Review</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/flesh.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <img src="images/placeholder.png" alt="Advertisement" class="two columns">
+      <div class="eight columns"><h1>Buffalo-Niagara Jewish Review</h1></div>
+      <img src="images/placeholder.png" alt="Advertisement" class="two columns">
+    </div>
+    <div class="row">
+      <nav class="two columns">
+        <a href="index.html">HOME</a>
+        <a href="donate.html">DONATE</a>
+        <a href="subscribe.html">SUBSCRIBE</a>
+        <a href="advertising.html">ADVERTISING</a>
+        <a href="editor.html">LETTERS TO THE EDITOR</a>
+        <a href="photo.html">PHOTOS</a>
+        <a href="request.html">REQUESTS</a>
+        <a href="additional.html">MORE NEWS</a>
+      </nav>
+      
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+    </form>
+</body>
+</html>
