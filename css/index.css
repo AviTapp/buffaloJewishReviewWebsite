@@ -1,0 +1,46 @@
+nav {
+    text-align: center;
+}
+article {
+    font-size: 0.5em;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    box-shadow: 10px 10px 50px 5px #ddd;
+    padding: 1%;
+    margin-top: inherit;
+}
+.row {
+    margin-top: 2%;
+}
+p {
+    margin-top: 0px;
+}
+.textRight {
+    text-align: right;
+    margin: 0;
+}
+.altText {
+    line-height: normal;
+    margin: 0px;
+    padding: 0px;
+}
+span {
+    font-size: 9px;
+    float: left;
+    display: block;
+}
+.navTab {
+  width: 30%;
+  border-bottom: none;
+  margin-right: -2px;
+  text-shadow: none;
+  background: #fff;
+  color: #3498db;
+  box-shadow: none;
+}
